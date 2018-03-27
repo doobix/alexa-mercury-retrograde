@@ -23,7 +23,7 @@ const handlers = {
     const that = this;
     let speechOutput = 'Sorry, unable to find out if Mercury is retrograde.';
     request({
-      url: 'https://mercuryretrogradeapi.com/',
+      url: 'https://mercuryretrogradeapi.com',
       json: true,
     }, function(err, resp, body) {
       if (!err) {
@@ -37,7 +37,7 @@ const handlers = {
     });
   },
   'AMAZON.HelpIntent': function () {
-    const speechOutput = 'This skill tells if Mercury is retrograde.';
+    const speechOutput = 'This skill tells if Mercury is retrograde. Would you like to know?';
     this.emit(':ask', speechOutput, speechOutput);
   },
   'AMAZON.CancelIntent': function () {
