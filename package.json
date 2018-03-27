@@ -1,0 +1,23 @@
+{
+  "name": "alexa-mercury-retrograde",
+  "version": "1.0.0",
+  "description": "is mercury retrograde",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doobix/alexa-mercury-retrograde.git"
+  },
+  "author": "doobix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doobix/alexa-mercury-retrograde/issues"
+  },
+  "homepage": "https://github.com/doobix/alexa-mercury-retrograde#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "request": "^2.85.0"
+  }
+}
