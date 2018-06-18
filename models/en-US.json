@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "mercury retrograde",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+              },
+              {
+                  "name": "GetMercuryRetrograde",
+                  "slots": [],
+                  "samples": [
+                      "is mercury in retrograde",
+                      "is mercury retrograde"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}
